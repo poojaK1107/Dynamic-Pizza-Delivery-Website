@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<title>Diliveryform</title>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body
+{
+      background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("2d61c0cfcf44c67821e8f47e0ba1a59e.jpg");
+      height:100vh;
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+}  
+button
+{
+	margin-left:100%;
+	text-align:center;
+	size:60px;
+	background-color:yellow;
+	color:black;
+}
+table
+{
+	margin:15% 10% 10% 20%;
+	color:white;
+	font-size:30px;
+}
+</style>
+
+</head>
+<body>
+ 
+        <table style="margin-top:15%;">
+	<tr><th><label for="Quantity"/>Quantity:</label></th>
+	<th><input type="text" id="Quantity" name="quantity"required/></th</tr>
+	<tr><th><label for="address">Address:</label></th>
+	<th><input type="text" id="address" name="address"required/></th></tr>
+	<tr><th><label for="mobileno">Mobile No:</label></th>
+	<th><input type="text" id="mobileno" name="mobileno"required/></th></tr>
+	<tr><th><label for="cash">Cash method:</label></th>  
+	<th><input type="radio" id="cash" name="cash" value="cash"/>Credit card  
+	<input type="radio" id="cash" name="cash" value="cash"/>Cash on Delivery <br/></th></tr> 
+	<tr><th><label for="creditno">Enter Creditcard No.:</th>
+	<th><input type="text" id="creditno" name="creditno"/></th></tr>
+        <tr><th><a href="last.html"/><button name="button" type="submit">Submit</button></a></th></tr>
+	<tr><th><a href="deliveryform.html"/><button type="reset">Reset</button></a></th></tr>
+</table>
+
+</body>
+</html>
